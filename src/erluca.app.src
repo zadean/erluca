@@ -1,0 +1,10 @@
+{application, erluca,
+ [
+  {description, "Unicode Collation Algorithm (UCA) & Default Unicode Collation Element Table"},
+  {vsn, "0.1.0"},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
