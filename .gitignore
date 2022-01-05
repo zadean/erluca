@@ -10,3 +10,4 @@ _build
 .rebar
 .project
 .settings
+doc
