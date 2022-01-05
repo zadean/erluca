@@ -4,8 +4,8 @@
     {applications, [kernel, stdlib]},
     {env, []},
     {licenses, ["Apache-2.0"]},
-    {links, #{
-        "GitHub" => "https://github.com/zadean/erluca",
-        "Specification" => "https://unicode.org/reports/tr10/"
-    }}
+    {links, [
+        {"GitHub", "https://github.com/zadean/erluca"},
+        {"Specification", "https://unicode.org/reports/tr10/"}
+    ]}
 ]}.
