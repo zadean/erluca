@@ -1,10 +1,11 @@
-{application, erluca,
- [
-  {description, "Unicode Collation Algorithm (UCA) & Default Unicode Collation Element Table"},
-  {vsn, "0.1.0"},
-  {applications, [
-                  kernel,
-                  stdlib
-                 ]},
-  {env, []}
- ]}.
+{application, erluca, [
+    {vsn, "0.1.1"},
+    {description, "Unicode Collation Algorithm (UCA) & Default Unicode Collation Element Table"},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {licenses, ["Apache-2.0"]},
+    {links, #{
+        "GitHub" => "https://github.com/zadean/erluca",
+        "Specification" => "https://unicode.org/reports/tr10/"
+    }}
+]}.
